@@ -1,0 +1,2 @@
+sql::select * from coords where timestamp > '2017-10-05' and timestamp < '2017-10-07' and flag is null order by timestamp desc
+log::Found 33907 rows for 2017-10-05<->2017-10-07. Out:input2.js
